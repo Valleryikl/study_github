@@ -1,0 +1,48 @@
+@media (max-width: 1450px) {
+    .nav {
+        gap: 20px;
+    }
+    .conteiner__row {
+        flex-wrap: wrap;
+    }
+    .conteiner__item {
+        width: 45%;
+    }
+    .item__picture {
+        width: 100%;
+    }
+    .play__row {
+        display: none;
+    }
+    .btn__play svg {
+        width: 70px;
+        height: 70px;
+    }
+    .search {
+        width: 210px;
+    }
+    .nav__btn {
+        gap: 10px;
+    }
+    .btn {
+        padding: 4px 15px;
+    }
+    .logo {
+        width: 95px;
+    }
+}
+@media (max-width: 1260px){
+    .header {
+        padding: 2% 16%;
+    }
+    .conteiner {
+        padding: 2% 16%;
+    }
+    .search {
+        width: 190px;
+    }
+    .downMusic,
+    .nav__btn {
+        font-size: 12px;
+    }
+}
