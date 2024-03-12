@@ -26,11 +26,7 @@
 .lang .en:hover,
 .lang .ru:hover {
     color: #000;
-<<<<<<< Updated upstream
-    border-color:black;
-=======
     text-decoration: underline;
->>>>>>> Stashed changes
 }
 .nav {
     display: flex;
