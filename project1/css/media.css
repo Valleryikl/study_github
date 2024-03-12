@@ -1,0 +1,124 @@
+@media (max-width: 1450px) {
+    .nav {
+        gap: 20px;
+    }
+    .conteiner__row {
+        flex-wrap: wrap;
+    }
+    .conteiner__item {
+        width: 45%;
+    }
+    .item__picture {
+        width: 100%;
+    }
+    .play__row {
+        display: none;
+    }
+    .btn__play svg {
+        width: 120%;
+        height: 120%;
+    }
+    .search {
+        width: 210px;
+    }
+    .nav__btn {
+        gap: 10px;
+    }
+    .btn {
+        padding: 4px 15px;
+    }
+    .logo {
+        width: 95px;
+    }
+}
+@media (max-width: 1260px){
+    .header {
+        padding: 2% 16%;
+    }
+    .conteiner {
+        padding: 2% 16%;
+    }
+    .search {
+        width: 190px;
+    }
+    .downMusic,
+    .nav__btn {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1024px) {
+    .lang {
+        margin-right: 0;
+    }
+    .nav {
+        flex-wrap: wrap;
+    } 
+    .nav__btn {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .btn {
+        padding: 5px 15px;
+    }
+    .search {
+        width: 230px;
+    }
+    .btn__play {
+        top: 35%;
+        left: 37%;
+    }
+    .icon__group {
+        gap: 25px;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .pol__conf {
+        font-size: 12px;
+    }
+}
+@media (max-width:768px) {
+    .nav__btn {
+        width: auto;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .search {
+        width: 280px;
+    }
+    .downMusic {
+        margin-left: 7%;
+    }
+    .nav__btn {
+        margin-right: 7%;
+    }
+}
+@media (max-width: 640px) {
+    .search {
+        width: 210px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .nav__btn,
+    .downMusic {
+        font-size: 12px;
+    }
+    .btn {
+        padding: 3px 12px;
+    }
+    .header,
+    .conteiner {
+        padding: 2% 14%;
+    }
+    .downMusic {
+        margin-left: 0;
+    }
+    .nav__btn {
+        margin-right: 0;
+        gap: 10px;
+    }
+}
