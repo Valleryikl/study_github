@@ -1,7 +1,4 @@
 @media (max-width: 1450px) {
-    .nav {
-        gap: 20px;
-    }
     .conteiner__row {
         flex-wrap: wrap;
     }
@@ -18,51 +15,15 @@
         width: 120%;
         height: 120%;
     }
-    .search {
-        width: 210px;
-    }
-    .nav__btn {
-        gap: 10px;
-    }
-    .btn {
-        padding: 4px 15px;
-    }
-    .logo {
-        width: 95px;
-    }
 }
 @media (max-width: 1260px){
-    .header {
-        padding: 2% 16%;
-    }
     .conteiner {
         padding: 2% 16%;
-    }
-    .search {
-        width: 190px;
-    }
-    .downMusic,
-    .nav__btn {
-        font-size: 12px;
     }
 }
 @media (max-width: 1024px) {
     .lang {
         margin-right: 0;
-    }
-    .nav {
-        flex-wrap: wrap;
-    } 
-    .nav__btn {
-        width: 100%;
-        justify-content: center;
-        gap: 20px;
-    }
-    .btn {
-        padding: 5px 15px;
-    }
-    .search {
-        width: 230px;
     }
     .btn__play {
         top: 35%;
@@ -79,46 +40,94 @@
         font-size: 12px;
     }
 }
-@media (max-width:768px) {
-    .nav__btn {
-        width: auto;
+@media (max-width: 1440px) {
+    .header {
+        padding: 0 15%;
     }
-    .nav {
-        justify-content: space-between;
-    }
-    .search {
-        width: 280px;
-    }
-    .downMusic {
-        margin-left: 7%;
+    .lang {
+        right: 14%;
     }
     .nav__btn {
-        margin-right: 7%;
+        gap: 10px;
     }
 }
-@media (max-width: 640px) {
-    .search {
-        width: 210px;
+@media (max-width: 1240px) {
+    .header {
+        gap: 25px;
+        padding: 0 10%;
     }
-    .logo {
-        width: 80px;
+    .lang {
+        right: 9%;
     }
-    .nav__btn,
+    .btn {
+        padding: 2px 8px;
+        font-size: 12px;
+    }
     .downMusic {
         font-size: 12px;
     }
-    .btn {
-        padding: 3px 12px;
+    .search {
+        width: 200px;
+        font-size: 12px;
     }
-    .header,
-    .conteiner {
-        padding: 2% 14%;
+    .logo {
+        width: 90px;
     }
-    .downMusic {
-        margin-left: 0;
+}
+@media (max-width: 850px) {
+    .header {
+        padding: 0 5%;
+    }
+    .lang {
+        right: 4%;
+    }
+}
+@media (max-width: 768px) {
+    .header nav {display: none;}
+    .menu-icon {display: block;}
+}
+@media (max-width: 768px) {
+    .header {
+        position: relative;
+        padding: 0 5%;
+    }
+    .header.responsive nav {display: block; }
+    .nav {
+        position: absolute;
+        top: 75px;
+        margin-left: -5%;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        z-index: 100;
+        box-shadow: 2px 4px 6px 0 rgba(194, 192, 192, 0.25);
+    }
+    .search {
+        width: 100%;
+        display: block;
     }
     .nav__btn {
-        margin-right: 0;
-        gap: 10px;
+        flex-direction: column;
+        width: 100%;
+        display: block;
+    }
+    .btn {
+        width: 100%;
+        padding: 6.7px;
+        border: none;
+        background-color: #f8f8f8;
+        color: #000;
+    }
+    .downMusic {
+        padding: 6.7px;
+        background-color: #f8f8f8;
+        border: 1px solid #f8f8f8;
+        width: 100%;
+        display: block;
+    }
+    .btn:hover,
+    .downMusic:hover {
+        background-color: #000;
+        color: #fff;
     }
 }
