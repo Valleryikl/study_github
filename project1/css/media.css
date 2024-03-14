@@ -44,6 +44,12 @@
     .header {
         padding: 0 15%;
     }
+    .footer {
+        padding: 3% 15%;
+    }
+    .conteiner {
+        padding: 2% 15%;
+    }
     .lang {
         right: 14%;
     }
@@ -55,6 +61,12 @@
     .header {
         gap: 25px;
         padding: 0 10%;
+    }
+    .footer {
+        padding: 3% 10%;
+    }
+    .conteiner {
+        padding: 2% 10%;
     }
     .lang {
         right: 9%;
@@ -78,6 +90,12 @@
     .header {
         padding: 0 5%;
     }
+    .footer {
+        padding: 3% 5%;
+    }
+    .conteiner {
+        padding: 2% 5%;
+    }
     .lang {
         right: 4%;
     }
@@ -89,7 +107,6 @@
 @media (max-width: 768px) {
     .header {
         position: relative;
-        padding: 0 5%;
     }
     .header.responsive nav {display: block; }
     .nav {
@@ -105,6 +122,7 @@
     .search {
         width: 100%;
         display: block;
+        font-size: 14px;
     }
     .nav__btn {
         flex-direction: column;
@@ -117,6 +135,7 @@
         border: none;
         background-color: #f8f8f8;
         color: #000;
+        font-size: 14px;
     }
     .downMusic {
         padding: 6.7px;
@@ -124,10 +143,29 @@
         border: 1px solid #f8f8f8;
         width: 100%;
         display: block;
+        font-size: 14px;
     }
     .btn:hover,
     .downMusic:hover {
         background-color: #000;
         color: #fff;
+    }
+}
+@media (max-width: 550px) {
+    .icon__group {
+        gap: 15px;
+    }
+    .icon {
+        width: 17px;
+        height: 17px;
+    }
+    .footer {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 435px) {
+    .conteiner__item {
+        width: 100%;
     }
 }

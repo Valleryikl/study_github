@@ -185,13 +185,15 @@
     display: flex;
     gap: 40px;
 }
+.item__icon {
+    cursor: pointer;
+}
+.item__icon:hover .icon {
+    color: #FFF000;
+}
 .icon {
     width: 25px;
     height: 25px;
-}
-.icon :hover {
-    color: #FFF000;
-    cursor: pointer;
 }
 .pol__conf {
     font-family: "M PLUS 1p", sans-serif;
