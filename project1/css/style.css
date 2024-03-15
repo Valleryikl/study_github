@@ -1,18 +1,22 @@
 /* font-family: "M PLUS 1p", sans-serif; */
 .header {
-    padding: 2% 20%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0 20%;
+    height: 80px;
     box-shadow: 2px 4px 6px 0 rgba(194, 192, 192, 0.25);
     background: #f8f8f8;
 }
-.header:hover > .en {
-    color: red;
-}
 .lang {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -2.5%;
+    position: absolute;
+    width: 20px;
     gap: 10px;
-    width: 100%;
+    width: 50px;
+    top: 4px;
+    right: 19%;
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 14px;
@@ -35,22 +39,30 @@
     align-items: center;
 }
 .logo {
+    width: 106px;
     transition: all .2s ease-in-out;
     cursor: pointer;
 }
 .logo:hover {
     transform: scale(1.1);
 }
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.menu-icon {
+    display: none;
+}
 .form {
     display: flex;
     overflow: hidden;
-    border-radius: 2px;
 }
 .search {
     font-family: "M PLUS 1p", sans-serif;
     font-weight: 300;
     font-size: 12px;
-    line-height: 178%;
     text-align: center;
     width: 240px;
     padding: 5px;
@@ -62,13 +74,12 @@
     background-color: #FFF000;
 }
 .btn-submit svg {
-    margin: 10px;
+    margin: 6px;
 }
 .downMusic {
     font-family: "M PLUS 1p", sans-serif;
     font-weight: 800;
     font-size: 14px;
-    line-height: 178%;
     text-align: center;
     color: #000;
     transition: all .2s ease-in-out;
@@ -87,7 +98,7 @@
 }
 .btn {
     border: 3px solid black;
-    padding: 5px 17px;
+    padding: 4px 17px;
     transition: all .2s ease-in-out;
 } 
 .btn-active {
@@ -174,13 +185,15 @@
     display: flex;
     gap: 40px;
 }
+.item__icon {
+    cursor: pointer;
+}
+.item__icon:hover .icon {
+    color: #FFF000;
+}
 .icon {
     width: 25px;
     height: 25px;
-}
-.icon :hover {
-    color: #FFF000;
-    cursor: pointer;
 }
 .pol__conf {
     font-family: "M PLUS 1p", sans-serif;
