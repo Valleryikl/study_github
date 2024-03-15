@@ -26,8 +26,8 @@
         margin-right: 0;
     }
     .btn__play {
-        top: 35%;
-        left: 37%;
+        top: 37%;
+        left: 39%;
     }
     .icon__group {
         gap: 25px;
@@ -163,9 +163,17 @@
         gap: 20px;
         flex-wrap: wrap;
     }
+    .btn__play {
+        top: 30%;
+        left: 35%;
+    }
 }
 @media (max-width: 435px) {
     .conteiner__item {
         width: 100%;
+    }
+    .btn__play {
+        top: 36%;
+        left: 38%;
     }
 }
