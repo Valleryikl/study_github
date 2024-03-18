@@ -1,0 +1,1 @@
+Here is a website that I created entirely myself, from the layout to the site itself. This is a site based on the anime Fairy Tail

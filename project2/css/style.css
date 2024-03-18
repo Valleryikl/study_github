@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: "Arvo", serif; */
+body {
+    background-image: url(../img/comand__natsu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Arvo", serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo {
+    width: 150px;
+}
+.main {
+    margin: 0 15%;
+    background-color: #ffffffce;
+    padding: 0 7%;
+}
+.fairy__family {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0;
+}
