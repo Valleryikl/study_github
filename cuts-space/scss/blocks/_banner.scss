@@ -1,0 +1,33 @@
+.banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .banner__text {
+        width: 675px;
+        position: relative;
+        z-index: 10;
+        margin-right: -105px;
+
+        h1 {
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 79px;
+            letter-spacing: 0.8px;
+        }
+
+        p {
+            width: 470px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 1.15px;
+        }
+    }
+    .banner__img {
+        width: 540px;
+        height: 676px;
+        border-radius: 0 40px 40px 40px;
+    }
+}
