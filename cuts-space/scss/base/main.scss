@@ -1,7 +1,9 @@
 @import "reset";
 @import "variable";
 @import "base";
-@import "blocks/header";
-@import "blocks/nav";
-@import "blocks/banner";
-@import "blocks/form";
+@import "fonts";
+@import "btn";
+@import "../blocks/nav";
+@import "../blocks/banner";
+@import "../blocks/form";
+@import "../blocks/bestspace.scss"

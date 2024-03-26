@@ -1,0 +1,30 @@
+.bestspace {
+
+    margin-top: 100px;
+
+    .bestspace__clients {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+    }
+    .bestspace__principal {
+        display: flex;
+        align-items: center;
+    }
+    .bestspace__pictures {
+        display: flex;
+        gap: 32px;
+        margin-left: -230px;
+    }
+    .bestspace__text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 374px;
+        margin-left: auto;
+
+        button {
+            margin-top: 20px;
+        }
+    }
+}
