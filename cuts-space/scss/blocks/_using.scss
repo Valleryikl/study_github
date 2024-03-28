@@ -1,0 +1,40 @@
+.using {
+
+    margin-top: 154px;
+    margin-bottom: 144px;
+    margin-right: 165px;
+    margin-left: 165px;
+    width: 1110px;
+    height: 464px;
+    background-image: url(../../img/img/Start\ using\ our\ product.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+
+    .using__text {
+        width: 370px;
+        margin-top: 92px;
+        margin-right: 95px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .h2 {
+            color: #fff;
+        }
+        .p {
+            color: #fff;
+        }
+    }
+    .btn__group {
+
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        .btn-white {
+            background-color: #fff;
+            color: #323232;
+        }
+    }
+
+}
